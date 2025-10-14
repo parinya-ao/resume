@@ -1,0 +1,48 @@
+# ref: https://forum.typst.app/t/publish-example-pdfs-using-github-pages/5781
+name: Publish Resume
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions: {}
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v5
+      - uses: typst-community/typst-action@v4
+        with:
+          typst-version: latest
+      - name: create output directory
+        run: mkdir github-pages-temp
+      - name: build copile
+        run: typst compile resume.typ --output github-pages-temp/resume.pdf
+      - name: upload site files as artifact
+        id: deployment
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: github-pages-temp
+
+  deploy-site:
+    needs: build-site
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.download_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Github Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
