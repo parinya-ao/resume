@@ -24,4 +24,6 @@
   text(font: "Liberation Sans", size: 14pt, weight: "bold")[
     #content
   ]
+  v(-0.5em)
+  line(length: 100%)
 }
