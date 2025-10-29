@@ -67,5 +67,3 @@ Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023
 *Computer Programming* #h(1fr) Bangkok, Thailand\
 *Teaching Assistant* #h(1fr) August 2025 - December 2025
 - Served a Teaching Assistant for over 100 Engineer Students, support coursework and lab sessions in Python Programming.
-
-ตรวจหาคำผิดขอแบบละเอียด
