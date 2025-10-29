@@ -33,7 +33,7 @@ jobs:
           sudo apt install fonts-liberation -y
 
       - name: build copile
-        run: typst compile resume.typ --output github-pages-temp/resume.pdf
+        run: typst compile resume.typ github-pages-temp/resume.pdf
 
       - name: upload site files as artifact
         id: deployment
