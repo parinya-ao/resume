@@ -34,9 +34,8 @@ jobs:
 
       - name: upload site files as artifact
         id: deployment
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
           path: github-pages-temp
 
   # See https://github.com/actions/deploy-pages
