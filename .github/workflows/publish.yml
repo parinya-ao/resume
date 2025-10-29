@@ -42,14 +42,21 @@ jobs:
           name: github-pages
           path: github-pages-temp
 
+  # See https://github.com/actions/deploy-pages
   deploy-site:
     needs: build-site
-    runs-on: ubuntu-latest
+
     permissions:
       pages: write
       id-token: write
+
+    # Deploy to the github-pages environment
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
