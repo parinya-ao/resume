@@ -27,6 +27,11 @@ jobs:
       - name: create output directory
         run: mkdir github-pages-temp
 
+      - name: setup font
+        run: |
+          sudo apt update -y
+          sudo apt install fonts-liberation -y
+
       - name: build copile
         run: typst compile resume.typ --output github-pages-temp/resume.pdf
 
