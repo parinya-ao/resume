@@ -19,13 +19,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
-      - uses: typst-community/typst-action@v4
+
+      - uses: typst-community/setup-typst@v4
         with:
           typst-version: latest
+
       - name: create output directory
         run: mkdir github-pages-temp
+
       - name: build copile
         run: typst compile resume.typ --output github-pages-temp/resume.pdf
+
       - name: upload site files as artifact
         id: deployment
         uses: actions/upload-artifact@v4
@@ -35,14 +39,12 @@ jobs:
 
   deploy-site:
     needs: build-site
+    runs-on: ubuntu-latest
     permissions:
       pages: write
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.download_url }}
-    runs-on: ubuntu-latest
     steps:
-      - name: Deploy Github Pages
-        id: deployment
+      - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
