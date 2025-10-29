@@ -3,3 +3,6 @@
 
 # json file personel data
 *.json
+
+# dot env file
+.env
