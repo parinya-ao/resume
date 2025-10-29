@@ -42,7 +42,7 @@ Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023
 
 *Tech*: React Native, Redux
 
-*Electronic Tax Invoice Management* Bangkok, Thailand\
+*Electronic Tax Invoice Management* #h(1fr) Bangkok, Thailand\
 *Backend Developer* #h(1fr) Aug 2025 - October 2025\
 - Developed backend services for an Electronic tax invoice management system, focus on performance.
 - Implemented REST APIs and data handling using TypeScript and Elysia framework.
