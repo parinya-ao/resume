@@ -50,23 +50,16 @@ Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023
 *Tech*: TypeScript, Bun, Elysia
 
 *Thailand Cybersecurity Competition 2025* #h(1fr) Bangkok, Thailand\
-*CTF competition* #h(1fr) september 2025\
+*CTF competition* #h(1fr) September 2025\
 - Competed in Thailand's national cybersecuity competition.
 - Specialized in Reverse Engineering and Programming challenges.
 
 // my skill
 #topic_header[Skills]
 
-*Language*: Python, TypeScript, Rust, Kotlin\
-*Frameworks*: Fastapi, Elysia, Nuxt, React Native, Pytorch\
-*Database*: MongoDB, PostgreSQL
-
-
-// other acvitiy
-#topic_header[Extracurricular activities]
-*Computer Programming* #h(1fr) Bangkok, Thailand\
-*Teaching Assistant* #h(1fr) August 2025 - December 2025
-- Served a Teaching Assistant for over 100 Engineer Students, support coursework and lab sessions in Python Programming.
+*Language*: Rust, TypeScript, Python, Kotlin\
+*Frameworks*: Elysia, Nuxt, React Native, Fastapi, Pytorch\
+*Database*: PostgreSQL, Sqlite, Mongodb
 
 // certification
 #topic_header[Certification]
@@ -75,3 +68,9 @@ Google / Coursera Verify: #link("https://www.coursera.org/account/accomplishment
 
 *Rust Fundamentals* #h(1fr) June 2025\
 Duke University (Coursera) Verify: #link("https://www.coursera.org/account/accomplishments/verify/6N285S6EQB2G")[Credential] Rust
+
+// other acvitiy
+#topic_header[Extracurricular activities]
+*Computer Programming* #h(1fr) Bangkok, Thailand\
+*Teaching Assistant* #h(1fr) August 2025 - December 2025
+- Served a Teaching Assistant for over 100 Engineer Students, support coursework and lab sessions in Python Programming.
