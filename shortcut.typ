@@ -7,9 +7,10 @@
 
 
 #let contact_header(phone, email, github_link) = {
+  v(-0.8em)
   align(center)[
     #text(font: "Liberation Sans", size: 12pt)[
-      Phone: #phone
+      Tel: +66 #phone
       |
       Email: #link("mailto:" + email)[#email]
       |
@@ -21,10 +22,15 @@
 
 
 #let topic_header(content) = {
+  v(-0.3em)
   text(font: "Liberation Sans", size: 14pt, weight: "bold")[
     #content
   ]
   v(-1em)
   line(length: 100%)
-  v(-0.5em)
+  v(-0.6em)
+}
+
+#let space_content() = {
+  v(-0.3em)
 }

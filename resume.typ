@@ -10,7 +10,7 @@
 #show link: set text(fill: rgb("#1155cc"))
 
 #let name = "Parinya Aobaun"
-#let telephone_number = "081 625 2994"
+#let telephone_number = "81 625 2994"
 #let email = "parinya.ao@outlook.co.th"
 #let github_link = "https://github.com/parinya-ao"
 
@@ -30,25 +30,27 @@ Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023
 *KU Tutorium* #h(1fr) Bangkok, Thailand\
 *PM assistant, System Engineer* #h(1fr) July 2025 - October 2025\
 // งานของ ku tutorium
-- Setup full infrastructure and DevOps workflow include server S3 storage and CI/CD pipelines
+- Setup full infrastructure and DevOps workflow, including S3 storage and CI/CD pipelines.
 - Led integration between dev team and system operations for smooth deployment
 
 *Tech*: Linux, PostgreSQL, Docker, S3, Github Action
 
+#space_content()
 *Dashboard Mobile Application* #h(1fr) Bangkok, Thailand\
 *Frontend Developer* #h(1fr) Sep 2024 - March 2025\
 // งานของ iwing buttom application
-- Implemented a mobile application to track and improve athlete using button system.
+- Implemented a mobile application to track and improve athlete performance using button based system.
 
 *Tech*: React Native, Redux
 
+#space_content()
 *Electronic Tax Invoice Management* #h(1fr) Bangkok, Thailand\
-*Backend Developer* #h(1fr) Aug 2025 - October 2025\
+*Backend Developer* #h(1fr) Aug 2025 - November 2025\
 - Developed backend services for an Electronic tax invoice management system, focus on performance.
 - Implemented REST APIs and data handling using TypeScript and Elysia framework.
 
 *Tech*: TypeScript, Bun, Elysia
-
+#space_content()
 *Thailand Cybersecurity Competition 2025* #h(1fr) Bangkok, Thailand\
 *CTF competition* #h(1fr) September 2025\
 - Competed in Thailand's national cybersecuity competition.
@@ -58,13 +60,15 @@ Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023
 #topic_header[Skills]
 
 *Language*: Rust, TypeScript, Python, Kotlin\
-*Frameworks*: Elysia, Nuxt, React Native, Fastapi, Pytorch\
+*Frameworks*: Elysia, Nuxt, React Native, FastAPI, Pytorch\
 *Database*: PostgreSQL, Sqlite, Mongodb
 
 // certification
 #topic_header[Certification]
 *Google Cybersecurity (Specialization)* #h(1fr) December 2024\
 Google / Coursera Verify: #link("https://www.coursera.org/account/accomplishments/specialization/JLTQSXOPALPI")[Credential] Linux, Python, SQL
+
+#space_content()
 
 *Rust Fundamentals* #h(1fr) June 2025\
 Duke University (Coursera) Verify: #link("https://www.coursera.org/account/accomplishments/verify/6N285S6EQB2G")[Credential] Rust
