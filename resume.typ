@@ -32,15 +32,15 @@ Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023
 // งานของ ku tutorium
 - Setup full infrastructure and DevOps workflow, including S3 storage and CI/CD pipelines.
 - Led integration between dev team and system operations for smooth deployment
-
-*Tech*: Linux, PostgreSQL, Docker, S3, Github Action
+#space_skill()
+*Tech*: Linux, PostgreSQL, Docker, S3, Github Actions
 
 #space_content()
 *Dashboard Mobile Application* #h(1fr) Bangkok, Thailand\
 *Frontend Developer* #h(1fr) Sep 2024 - March 2025\
 // งานของ iwing buttom application
 - Implemented a mobile application to track and improve athlete performance using button based system.
-
+#space_skill()
 *Tech*: React Native, Redux
 
 #space_content()
@@ -48,8 +48,9 @@ Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023
 *Backend Developer* #h(1fr) Aug 2025 - November 2025\
 - Developed backend services for an Electronic tax invoice management system, focus on performance.
 - Implemented REST APIs and data handling using TypeScript and Elysia framework.
+#space_skill()
+*Tech*: TypeScript, Bun, Elysia, Docker, Prisma, S3
 
-*Tech*: TypeScript, Bun, Elysia
 #space_content()
 *Thailand Cybersecurity Competition 2025* #h(1fr) Bangkok, Thailand\
 *CTF competition* #h(1fr) September 2025\
@@ -66,12 +67,14 @@ Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023
 // certification
 #topic_header[Certification]
 *Google Cybersecurity (Specialization)* #h(1fr) December 2024\
-Google / Coursera Verify: #link("https://www.coursera.org/account/accomplishments/specialization/JLTQSXOPALPI")[Credential] Linux, Python, SQL
+Google / Coursera Verify: #link("https://www.coursera.org/account/accomplishments/specialization/JLTQSXOPALPI")[Credential]\
+*Skills*: Linux, Python, SQL, Networking (TCP/IP), Incident Response, Vulnerability Assessment
 
 #space_content()
 
 *Rust Fundamentals* #h(1fr) June 2025\
-Duke University (Coursera) Verify: #link("https://www.coursera.org/account/accomplishments/verify/6N285S6EQB2G")[Credential] Rust
+Duke University (Coursera) Verify: #link("https://www.coursera.org/account/accomplishments/verify/6N285S6EQB2G")[Credential]\
+*Skills*: Rust, Ownership, Borrowing, Smart Pointers, Error Handling, Concurrency
 
 // other acvitiy
 #topic_header[Extracurricular activities]

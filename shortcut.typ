@@ -34,3 +34,7 @@
 #let space_content() = {
   v(-0.3em)
 }
+
+#let space_skill() = {
+  v(-0.3em)
+}
