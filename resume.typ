@@ -62,7 +62,7 @@ Bachelor of Engineering in Computer Engineering | GPA 3.20/4.00 #h(1fr) May 2023
 
 *Language*: TypeScript, Rust, Python, Kotlin, Java \
 *Frameworks*: Elysia, Nuxt, Vue, React Native, FastAPI, Pytorch\
-*Database*: PostgreSQL, S3
+*Database*: PostgreSQL, Supabase
 
 // certification
 #topic_header[Certification]
