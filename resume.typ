@@ -23,7 +23,7 @@
 // Education
 #topic_header[Education]
 *Kasetsart University* #h(1fr) Bangkok, Thailand\
-Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023 - May 2027\
+Bachelor of Engineering in Computer Engineering | GPA 3.20/4.00 #h(1fr) May 2023 - May 2027\
 
 // project and Competitive
 #topic_header[Project & Competitive]
@@ -60,9 +60,9 @@ Bachelor of Engineering in Computer Engineering | GPA 3.13/4.00 #h(1fr) May 2023
 // my skill
 #topic_header[Skills]
 
-*Language*: Rust, TypeScript, Python, Kotlin\
-*Frameworks*: Elysia, Nuxt, React Native, FastAPI, Pytorch\
-*Database*: PostgreSQL, Sqlite, Mongodb
+*Language*: TypeScript, Rust, Python, Kotlin, Java \
+*Frameworks*: Elysia, Nuxt, Vue, React Native, FastAPI, Pytorch\
+*Database*: PostgreSQL, S3
 
 // certification
 #topic_header[Certification]
